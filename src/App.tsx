@@ -25,6 +25,31 @@ function App() {
         name: "green",
         hex: "#008000",
       },
+      {
+        id: "green",
+        name: "green",
+        hex: "#008000",
+      },
+      {
+        id: "green",
+        name: "green",
+        hex: "#008000",
+      },
+      {
+        id: "green",
+        name: "green",
+        hex: "#008000",
+      },
+      {
+        id: "green",
+        name: "green",
+        hex: "#008000",
+      },
+      {
+        id: "green",
+        name: "green",
+        hex: "#008000",
+      },
     ],
   };
 

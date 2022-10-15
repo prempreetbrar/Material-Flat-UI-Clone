@@ -1,5 +1,5 @@
 import chroma from "chroma-js";
-const LEVELS = [0, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000];
+const LEVELS = [-1, 0, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000];
 
 interface colorObject {
   id: string;
@@ -37,7 +37,7 @@ export default function generatePalette(basePalette: {
   }
 
   for (const colorObject of basePalette.colors) {
-    const scale = generateAllLevelsForColor(colorObject.hex, 11);
+    const scale = generateAllLevelsForColor(colorObject.hex, 12);
     scale.forEach((color, i) =>
       newPalette.colorsPerLevel[LEVELS[i]].push({
         id: colorObject.name.toLowerCase().replace(/ /g, "-"),

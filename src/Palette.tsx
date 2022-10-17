@@ -3,6 +3,8 @@ import "./Palette.css";
 import { useState } from "react";
 import Navbar from "./Navbar";
 import { match } from "assert";
+import { useParams } from "react-router-dom";
+import generatePalette from "./ColorHelpers";
 
 interface PaletteType {
   colors: Array<string>;
@@ -12,11 +14,18 @@ export const HEX = "hex";
 export const RGB = "rgb";
 export const RGBA = "rgba";
 
-export default function Palette({ colors }: any) {
+export default function Palette({ allPalettes }: any) {
   function handleSlide(event: any) {
     console.log(event);
     setLevel(event);
   }
+  const { paletteID } = useParams();
+  const colors = generatePalette(
+    allPalettes.find(
+      (paletteObject: { id: string | undefined }) =>
+        paletteObject.id == paletteID
+    )
+  );
   const [level, setLevel] = useState(500);
   const [colorType, setColorType] = useState(HEX);
   const [prevColorType, setPrevColorType] = useState(HEX);
@@ -39,10 +48,15 @@ export default function Palette({ colors }: any) {
         snackbarShowing={snackbarShowing}
         setSnackbarShowing={setSnackbarShowing}
       />
-      {colors.colorsPerLevel[level].map((color: any) => (
-        <ColorBox color={color[colorType]} name={color.name} />
-      ))}
-      <div className="Palette-colors">{/**/}</div>
+      <div className="colors-container">
+        {colors.colorsPerLevel[level].map((color: any) => (
+          <ColorBox key={color.id} color={color[colorType]} name={color.name} />
+        ))}
+      </div>
+      <footer className="Palette-footer">
+        {colors.paletteName}
+        <span className="emoji">{colors.emoji}</span>
+      </footer>
     </div>
   );
 }

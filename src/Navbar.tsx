@@ -15,6 +15,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import "./Navbar.css";
 import { styled } from "@mui/system";
 import Handle from "rc-slider/lib/Handles/Handle";
+import { Link } from "react-router-dom";
 
 export default function Navbar({
   level,
@@ -65,7 +66,7 @@ export default function Navbar({
   return (
     <header className="Navbar">
       <div className="logo">
-        <a href="#">Material-Flat-UI-Colors-Clone</a>
+        <Link to="/">Material-Flat-UI-Colors-Clone</Link>
       </div>
       <span>Level: {level}</span>
       <div className="slider">

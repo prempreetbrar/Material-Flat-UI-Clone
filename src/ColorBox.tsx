@@ -8,6 +8,7 @@ export function ColorBox(props: any) {
     setIsCopied(true);
     setTimeout(() => setIsCopied(false), 1000);
   }
+  console.log(props.color);
 
   return (
     <CopyToClipboard text={props.color} onCopy={handleCopy}>

@@ -11,7 +11,289 @@ function App() {
     {
       paletteName: "indian",
       id: "indian",
-      emoji: "Canada",
+      emoji: "😊",
+      colors: [
+        {
+          id: "blue",
+          name: "blue",
+          hex: "#0000FF",
+        },
+        {
+          id: "red",
+          name: "red",
+          hex: "#FF0000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+      ],
+    },
+    {
+      paletteName: "indian",
+      id: "indian",
+      emoji: "😊",
+      colors: [
+        {
+          id: "blue",
+          name: "blue",
+          hex: "#0000FF",
+        },
+        {
+          id: "red",
+          name: "red",
+          hex: "#FF0000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+      ],
+    },
+    {
+      paletteName: "indian",
+      id: "indian",
+      emoji: "😊",
+      colors: [
+        {
+          id: "blue",
+          name: "blue",
+          hex: "#0000FF",
+        },
+        {
+          id: "red",
+          name: "red",
+          hex: "#FF0000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+      ],
+    },
+    {
+      paletteName: "indian",
+      id: "indian",
+      emoji: "😊",
+      colors: [
+        {
+          id: "blue",
+          name: "blue",
+          hex: "#0000FF",
+        },
+        {
+          id: "red",
+          name: "red",
+          hex: "#FF0000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+      ],
+    },
+    {
+      paletteName: "indian",
+      id: "indian",
+      emoji: "😊",
+      colors: [
+        {
+          id: "blue",
+          name: "blue",
+          hex: "#0000FF",
+        },
+        {
+          id: "red",
+          name: "red",
+          hex: "#FF0000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+      ],
+    },
+    {
+      paletteName: "indian",
+      id: "indian",
+      emoji: "😊",
+      colors: [
+        {
+          id: "blue",
+          name: "blue",
+          hex: "#0000FF",
+        },
+        {
+          id: "red",
+          name: "red",
+          hex: "#FF0000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+        {
+          id: "green",
+          name: "green",
+          hex: "#008000",
+        },
+      ],
+    },
+    {
+      paletteName: "indian",
+      id: "indian",
+      emoji: "😊",
       colors: [
         {
           id: "blue",
